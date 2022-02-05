@@ -4,7 +4,7 @@ This repo is for anyone looking to hide messages related to wordle copy-paste de
 
 **Note: There will be a slight delay before the messages are hidden and you will still get Discord message notications.**
 
-Lasted tested on Windows 10 Desktop Discord Version: <x>
+Lasted tested on  Windows 10 64-Bit Desktop Discord Version: Stable 113404 (30b719d)
 
 ### Run On Start Up
 
