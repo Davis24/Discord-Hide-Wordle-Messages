@@ -16,7 +16,7 @@ Lasted tested on  Windows 10 64-Bit Desktop Discord Version: Stable 113404 (30b7
 - Open the `discord_krisp-1` folder.
 - At this point you should be at `%localappdata%/Discord/<discord_app_current_version>/modules/discord_krisp-1`. There may be slight varations in this file path but should be relatively similar. 
 - Open index.js and add:
-	```js
+```js
 function hideBlocked(){
     const blocked = document.querySelectorAll('[class^="groupStart"]'); // Find all "Blocked Messages"
     blocked.forEach(blokMsg => {
