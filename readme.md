@@ -23,7 +23,8 @@ function hideBlocked(){
         if(blokMsg.style.display !== "none") blokMsg.style.display = "none"; // Hide the message if it's not already hidden.
     });
 };
-setInterval(hideBlocked, 500); // Repeat every half second. Recommended to keep at 500, but raise/ lower if you wish.```
+setInterval(hideBlocked, 500); // Repeat every half second. Recommended to keep at 500, but raise/ lower if you wish.
+```
 
 - Save
 - Restart Discord
@@ -50,7 +51,8 @@ Discord has recently remove the ability to open the inspector console to prevent
   },
   "BACKGROUND_COLOR": "#202225",
   "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
-}```
+}
+```
 
 - Save the changes made to `settings.json`. 
 
