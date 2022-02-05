@@ -6,7 +6,7 @@ This repo is for anyone looking to hide messages related to wordle copy-paste de
 
 Lasted tested on  Windows 10 64-Bit Desktop Discord Version: Stable 113404 (30b719d)
 
-### Run On Start Up
+# Run On Start Up
 
 **This is considered client modification and could result in Discord banning your account.**
 
@@ -30,11 +30,11 @@ setInterval(hideBlocked, 500); // Repeat every half second. Recommended to keep 
 - Restart Discord
 
 
-### Run Manually
+# Run Manually
 
 Discord has recently remove the ability to open the inspector console to prevent social engineering. The steps below will walk you through how to reenable the inspector console and run the script. 
 
-# Update Discord Settings JSON
+## Update Discord Settings JSON
 
 - Open `%appdata%/discord/settings.json`
 - Add `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` to the file. The final version should look something like this.
@@ -56,7 +56,7 @@ Discord has recently remove the ability to open the inspector console to prevent
 
 - Save the changes made to `settings.json`. 
 
-# Execute the Script
+## Execute the Script
 
 Note: You will have to execute these steps everytime you startup Discord for it to work. Refer to [Run On Start Up](#run-on-start-up) section if that's something you wish to do instead. 
 
